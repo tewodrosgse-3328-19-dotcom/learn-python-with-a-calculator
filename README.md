@@ -1,4 +1,5 @@
-                           # Learn Python with a Calculator
+                          Learn Python with a Calculator
+                          
 This  is a simple calculator built using Python. It performs basic arithmetic operations such as :  addition, subtraction, multiplication, and division.
 
  *we use three methods to  implement simple calculator operations*:
@@ -6,7 +7,8 @@ This  is a simple calculator built using Python. It performs basic arithmetic op
     1.Using functions and a dictionary
     2. if, elif, and else statements
     3.Python dictionaries with the keys(), values(), and items() methods.
-                #Features of this calculator 
+
+  Features of this calculator 
 
 ➕ Addition of two numbers
 ➖ Subtraction of two numbers
@@ -17,15 +19,22 @@ This  is a simple calculator built using Python. It performs basic arithmetic op
 🗂️ Demonstrates dictionary operations
 🔀 Supports operation selection using conditional statements
 
-                                   ** How It Works**
-              #Method 1: Using Functions and a Dictionary
+**How It Works**
+
+Method 1: Using Functions and a Dictionary
+
  **four functions for the arithmetic operations:**
 
 **add(x, y)** → *Returns the sum of two numbers*.
+
 **subtract(x, y)** → *Returns the difference between two numbers*.
+
 **multiply(x, y)** →  *Returns the product of two numbers*.
+
 **divide(x, y)** → *Returns the quotient and checks for division by zero*.
+
   *Each dictionary key is the operation name  and its value is the corresponding function*
+
 calculator = {
     'add': add,
     'subtract': subtract,
@@ -34,17 +43,20 @@ calculator = {
 }
 .
 
-              **three useful Python dictionaries methods**:
+ **three useful Python dictionaries methods**:
 
 
-     **Method	 **                       **Description**
+ **Method	 **                       **Description**
+
 calculator.keys()	      *Returns the dictionary operation names*.
+
 calculator.values()	      *Returns the function objects stored in the dictionary*.
+
 calculator.items()	      *Returns the key-value pairs*.
         
 
 
-                        **Method 2: if, elif, and else statements**
+ **Method 2: if, elif, and else statements**
 *uses if, elif, and else statements to determine which operation to perform*.
 
 *selects an operation by entering a number*:
