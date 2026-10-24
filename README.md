@@ -11,12 +11,19 @@ This  is a simple calculator built using Python. It performs basic arithmetic op
   Features of this calculator 
 
 ➕ Addition of two numbers
+
 ➖ Subtraction of two numbers
+
 ✖️ Multiplication of two numbers
+
 ➗ Division of two numbers
+
 🛡️ Handles division by zero
+
 📚 Uses functions to organize code
+
 🗂️ Demonstrates dictionary operations
+
 🔀 Supports operation selection using conditional statements
 
 **How It Works**
@@ -46,13 +53,13 @@ calculator = {
  **three useful Python dictionaries methods**:
 
 
- **Method	 **                       **Description**
+ **Method**                             **Description**
 
-calculator.keys()	      *Returns the dictionary operation names*.
+calculator.keys()	   →   *Returns the dictionary operation names*.
 
-calculator.values()	      *Returns the function objects stored in the dictionary*.
+calculator.values()	   →   *Returns the function objects stored in the dictionary*.
 
-calculator.items()	      *Returns the key-value pairs*.
+calculator.items()	    →  *Returns the key-value pairs*.
         
 
 
